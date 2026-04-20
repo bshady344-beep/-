@@ -1,0 +1,382 @@
+
+ <!DOCTYPE html>
+ <html lang="ar">
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial=1.0">
+
+ 	<title> تحدي الزهيري </title>
+ 	<style>
+ 		body {
+ 				font-family:'segoe UI', tahome, geneva, verdana, sans-serif;
+			background-color:gray;
+			color:white;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			justify-content:center;
+			min-height:100vh;
+			margin:0;
+			direction:rtl;
+
+ 		}
+ 		.page {
+ 			display: none;
+ 		}
+ 		    .active {
+ 		    	display: block;
+ 		    }
+ 		       button {
+ 		       	padding: 10px 20px;
+ 		       	font-size: 18px;
+ 		       	cursor: pointer;
+ 		       	border-radius: 10px;
+ 		       	background-color: #ff4b2b;
+ 		       	color: white;
+ 		       	margin:10px;
+
+ 		       }
+[id^="p"] {
+	background:rgba( 255, 255, 255, 0.1);
+	backdrob-filter: blur(15px);
+	padding: 30px;
+	border-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow:  0 20px 40px rgba(0, 0, 0, 0.6);
+	width: 85%
+	max-width: 500px;
+	text-align: center;
+	margin: auto;
+}
+ #p h2 {
+ 	color: #ffcc00;
+ 	border-bottom: 2px solid #ffcc00;
+ 	padding-bottom: 10px;
+ }
+ #p11{
+ 	background: rgba(46, 204, 113, 0.2);
+ 	border: 2px solid #2ecc71;
+ }
+ #p11 h2 {
+ 	color:#2ecc71; 
+ 	font-size: 30px;
+ 	animation:celebrate is infinite alternate; 
+ }
+@keyframes celebrate {
+	from{ transform: scale(1); }
+	to{transform: scale(1.1);}
+}
+button {
+	width: 100%;
+	padding:15px;
+	margin: 10px 0; 
+	border:none;
+	border-radius:12px;
+	font-size: 18px;
+	font-weight:bold;
+	cursor:pointer;
+	color:white;
+	background:linear-gradient(45dag,#e65100, #ff9800);
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 	</style>
+ </head>
+ <body>
+ 	<div id="p" class="page active">
+ 		<h2> جاهز تبدأ التحدي ؟ </h2>
+ 		<br>
+ 		<h3>التحدي مكون من 10 اسئله حتي الان </h3>
+ 		<h3>اذا كانت اجابتك صحيحه , ستنتقل للسؤال الاخر </h3>
+ 		<h3>اذا كانت خاطئه , فستعود 5 اسئله للخلف </h3>
+ 		<h5>استمتع</h5>
+ 		<button onclick="cc()">هيا</button>
+ 	</div>
+ 	<div id="p1" class="page">
+ 		<h2> 1- في تأثير كومتون , بعد تصادم الالكترون بالفتون فإن سرعه الفوتون المتشتت</h2>
+ 		<button onclick="alert(' ركز شويه!')">تزداد</button>
+ 		<button onclick="alert('ركز شويه !')">تقل</button>
+ 		<button onclick="alert('جاهز للسؤال الثاني');qq()">تظل ثابته</button> 
+ 		<button onclick="alert('ركز شويه!')">تصل للصفر</button>
+ 	</div>
+ 		<div id="p2" class="page">
+ 		  <h2>2-  في انبوبه شعاع الكاثود ,عند تغيير جهد الشبكه -20V الي -50V</h2>
+ 		  	<button onclick="alert('تقدم كويس بس للاسف الاجابه غلط! , هترجع للأول');ww()">تزداد شده الاضاءه علي الشاشه الفلورسيه</button>
+ 			<button onclick="alert('كمل');rr()">تقل شده الاضاءه علي الشاشه الفلوروسيه</button>
+ 			<button onclick="alert('تقدم كويس بس للاسف الاجابه غلط! , هترجع للأول');tt()">يزداد انحراف الشعاع الالكتروني</button>
+ 			<button onclick="alert('تقدم كويس بس للاسف الاجابه غلط! , هترجع للأول');yy()">يقل انحراف الشعاع الالكتروني</button>
+</div>	
+		<div id="p3" class="page">
+ 		  <h2>3-اذا كان عدد مستويات الطاقه الممكنه لحركه الالكترون في ذره ما خمس مستويات ,و يمكن للالكترون ان ينتقل بين اي مستويين من تلك المستويات فإن عدد متسلسلات الطيف الذي يمكن ان تنبعث هو.
+ 		  </h2>
+ 		  	<button onclick="alert('هانت فاضل 7 اسئله');xx()">4</button>
+ 			<button onclick="alert('مش مهم تغلط المهم تعرف غلطك!,للاسف هتعيد من الاول');aa()">6</button>
+ 			<button onclick="alert('مش مهم تغلط المهم تعرف غلطك!,للاسف هتعيد من الاول');ss()">8</button>
+ 			<button onclick="alert('مش مهم تغلط المهم تعرف غلطك!,للاسف هتعيد من الاول');dd()">10</button>
+</div>
+		<div id="p4" class="page">
+ 		  <h2> 4-النبسع بين اكبر طول موجي في متسلسه ليمان و و اكبر طول موجي في متسلسله بلمر في طيف ذره الهيدروجين</h2>
+ 		  	<button onclick="alert(' النجاح مش سهل , اتعب و عافر');qw()">3/23</button>
+ 			<button onclick="alert('السؤال ده غلط فيه ناس كتير!');qe();">5/27</button>
+ 			<button onclick="alert(' النجاح مش سهل , اتعب و عافر');qr()">7/27</button>
+ 			<button onclick="alert(' النجاح مش سهل , اتعب و عافر');qt()">9/31</button>
+</div>
+		<div id="p5" class="page">
+ 		  <h2> 5-غاز يتكون من ذرات الهيدروجين و كانت الذرات في المدار الاول n=1, فإن طاقه الفوتةنات بوحده (ev) المطلوبه لنقل الذرات من المدار n=3, عن طريق امتصاص الفوتونات</h2>
+ 		  	<button onclick="alert('ركز و المره الجايه هتظبط')as();">10.2</button>
+ 			<button onclick="alert('ركز و المره الجايه هتظبط');ad()">12.8</button>
+ 			<button onclick="alert('كويس اوي');af()">12.1</button>
+ 			<button onclick="alert('ركز و المره الجايه هتظبط');ag()">13.6</button>
+</div>
+		<div id="p6" class="page">
+ 		  <h2>6- من مكتشف الاشعه السينيه؟</h2>
+ 		  	<button onclick="alert('انا بهنيك علي التقدم ده, بس حاول ركز اكتر ');zx()">بور</button>
+ 			<button onclick="alert('انا بهنيك علي التقدم ده, بس حاول ركز اكتر');zc()">ليمان</button>
+ 			<button onclick="alert('انا بهنيك علي التقدم ده, بس حاول ركز اكتر');zv()">بلمر</button>
+ 			<button onclick="alert('دا كان سهل ');zb()">رونتجن</button>
+</div>
+		<div id="p7" class="page">
+ 		  <h2>7- الطيف اللين يعرف باسم</h2>
+ 		  	<button onclick="alert('ازاي مجبتهاش و جبت الي قبلها !!!');we()">المميز</button>
+ 			<button onclick="alert('ازاي مجبتهاش و جبت الي قبلها !!!');wr()">الشديد</button>
+ 			<button onclick="alert('ازاي مجبتهاش و جبت الي قبلها !!!');wt()">المار</button>
+ 			<button onclick="alert('عادي برضو');wy()">المستمر</button>
+</div>
+		<div id="p8" class="page">
+ 		  <h2>8- لما التردد يقل , الطول الموجي</h2>
+ 		  	<button onclick="alert('هانت كلها سؤالين');sd()">يزيد</button>
+ 			<button onclick="alert('حاول تهتم باللي بين السطور');sf()">يقل</button>
+ 			<button onclick="alert('حاول تهتم باللي بين السطور');sg()">يظل ثابت</button>
+ 			<button onclick="alert('حاول تهتم باللي بين السطور');sh()">يزيد للضعف</button>
+</div>
+		<div id="p9" class="page">
+ 		  <h2>9- طاقه الهيدروجين تتناسب عكسيا مع </h2>
+ 		  	<button onclick="alert('كان فاضلك سؤال !');er()">رتبه المستوي</button>
+ 			<button onclick="alert('عاش يا بطل');et()">مربع رتبه المستوي</button>
+ 			<button onclick="alert('كان فاضلك سؤال !');ey()">جذر رتبه المستوي</button>
+ 			<button onclick="alert('كان فاضلك سؤال !');eu()">سرعه اقل من الفوتون الساقط</button>
+</div>
+		<div id="p10" class="page">
+ 		  <h2>10- المجهر الالكتروني يعتمد في عمله علي طبيعه </h2>
+ 		  	<button onclick="alert('كنت علي شعره من انك تخلص التحدي');vb()">الجسيميه للضوء</button>
+ 			<button onclick="alert('مبرووووووووك!');vv()">الموجه للألكترون</button>
+ 			<button onclick="alert('كنت علي شعره من انك تخلص التحدي');vn()">الكهرومغناطيسيه للذره</button>
+ 			<button onclick="alert('كنت علي شعره من انك تخلص التحدي');vm()">الحراريه للمعادن</button>
+</div>
+<div id="p11" class="page">
+	<h2>  مبروك عليك/ي ,انا عارف انهم مش اسئله صعبه بس دي تجربه و كانت بلنسبالي اول مره</h2>
+	<br>
+	<h3>انتظر القادم من svr </h3>
+<button onclick="alert('صدقني انا تعبت جامد عقبال ما عملت الاسئله دي ف اتمني يكونوا عجبوك');jj()" class="start-btn">عد للصفحه الرئسيه</button>
+</div>
+ <script>
+ 		function cc() {
+ 		document.getElementById("p").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+ 		function qq() {
+ 		document.getElementById("p1").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ 	}
+
+
+
+
+ 		function ww() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+ 		function rr() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ }
+ 		function tt() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function yy() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+
+ 		function xx() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ 	}
+ 		function aa() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ }
+ 		function ss() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function dd() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+ 		function qe() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ 	}
+ 		function qw() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ }
+ 		function qr() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function qt() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+
+ 		function af() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ 	}
+ 		function as() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ }
+ 		function ag() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function ad() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+
+ 		function zb() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p7").classList.add("active");
+ 	}
+ 		function zx() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ }
+ 		function zc() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ 	}
+		function zv() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ 	}
+
+
+ 		function wy() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p8").classList.add("active");
+ 	}
+ 		function we() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ }
+ 		function wr() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ 	}
+
+
+		function wt() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ 	}
+
+
+
+
+ 		function sd() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p9").classList.add("active");
+ 	}
+ 		function sf() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ }
+ 		function sg() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ 	}
+		function sh() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ 	}
+
+
+
+
+
+ 		function et() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p10").classList.add("active");
+ 	}
+ 		function er() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ }
+ 		function ey() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ 	}
+
+
+		function eu() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ 	}
+
+
+
+
+
+ 		function vv() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p11").classList.add("active");
+ 	}
+ 	function vb() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ 	}
+ 		function vn() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ 	}
+ 		function vm() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ }
+ 		function jj() {
+ 			window.location.href='home.html';
+
+ }
+
+ </script>
+ 
+</body>
+ </html>

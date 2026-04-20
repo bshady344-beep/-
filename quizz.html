@@ -1,0 +1,392 @@
+
+ <!DOCTYPE html>
+ <html lang="ar">
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial=1.0">
+
+ 	<title> تحدي ابن الهيثم </title>
+ 	<style>
+ 		body {
+ 				font-family:'segoe UI', tahome, geneva, verdana, sans-serif;
+			background-color:gray;
+			color:white;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			justify-content:center;
+			min-height:100vh;
+			margin:0;
+			direction:rtl;
+
+ 		}
+ 		.page {
+ 			display: none;
+ 		}
+ 		    .active {
+ 		    	display: block;
+ 		    }
+ 		       button {
+ 		       	padding: 10px 20px;
+ 		       	font-size: 18px;
+ 		       	cursor: pointer;
+ 		       	border-radius: 10px;
+ 		       	background-color: #ff4b2b;
+ 		       	color: white;
+ 		       	margin:10px;
+
+ 		       }
+
+ 		       [id^="p"] {
+	background:rgba( 255, 255, 255, 0.1);
+	backdrob-filter: blur(15px);
+	padding: 30px;
+	border-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow:  0 20px 40px rgba(0, 0, 0, 0.6);
+	width: 85%
+	max-width: 500px;
+	text-align: center;
+	margin: auto;
+}
+ #p h2 {
+ 	color: #ffcc00;
+ 	border-bottom: 2px solid #ffcc00;
+ 	padding-bottom: 10px;
+ }
+ #p11{
+ 	background: rgba(46, 204, 113, 0.2);
+ 	border: 2px solid #2ecc71;
+ }
+ #p11 h2 {
+ 	color:#2ecc71; 
+ 	font-size: 30px;
+ 	animation:celebrate is infinite alternate; 
+ }
+@keyframes celebrate {
+	from{ transform: scale(1); }
+	to{transform: scale(1.1);}
+}
+button {
+	width: 100%;
+	padding:15px;
+	margin: 10px 0; 
+	border:none;
+	border-radius:12px;
+	font-size: 18px;
+	font-weight:bold;
+	cursor:pointer;
+	color:white;
+	background:linear-gradient(45dag,#e65100, #ff9800);
+	transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 	</style>
+ </head>
+ <body>
+ 	<div id="p" class="page active">
+ 		<h2> جاهز تبدأ التحدي ؟ </h2>
+ 		<br>
+ 		<h3>التحدي مكون من 10 اسئله حتي الان </h3>
+ 		<h3>اذا كانت اجابتك صحيحه , ستنتقل للسؤال الاخر </h3>
+ 		<h3>اذا كانت خاطئه , فستعود 5 اسئله للخلف </h3>
+ 		<h5>استمتع</h5>
+ 		<button onclick="cc()">هيا</button>
+ 	</div>
+ 	<div id="p1" class="page">
+ 		<h2> 1- سلك مستقيم طوله 0.2 ستحرك بسرعه 2m/s في اتجاه يصنع زاويه (30) مع اتجاه خطوط فيض مغناطيسي كثافته 0.4T فتولد في السلك قوه دافعه كهربيه مستحثه مقدراها </h2>
+ 		<button onclick="alert(' ركز شويه!')">0.16V</button>
+ 		<button onclick="alert('ركز شويه !')">0.32V</button>
+ 		<button onclick="alert('ركز شويه !')">0.24V</button> 
+ 		<button onclick="alert('جاهز للسؤال الثاني');qq()">0.08V</button>
+ 	</div>
+ 		<div id="p2" class="page">
+ 		  <h2>2-  سلك مستقيم طوله يساوي الوحده يتحرك عمودي علي مجال مغناطيسي كثافه فيضه (0.4T)  فتولد بين طرفيه ق.د.ك مستحثه مقدارها  (2.0V) عتكون السراعه التي يتحرك بها السلك تساوي  </h2>
+ 		  	<button onclick="alert('كمل');rr()">0.5 m/s</button>
+ 			<button onclick="alert('تقدم كويس بس للاسف الاجابه غلط! , هترجع للأول');ww()">1m/s</button>
+ 			<button onclick="alert('تقدم كويس بس للاسف الاجابه غلط! , هترجع للأول');tt()">2m/s</button>
+ 			<button onclick="alert('تقدم كويس بس للاسف الاجابه غلط! , هترجع للأول');yy()">1.5m/s</button>
+</div>	
+		<div id="p3" class="page">
+ 		  <h2>3- سلك مستقيم طوله 20cm ستحرك بسرعه 0.5m/s في اتجاه يصنع زاويه (سيتا) مع اتجاه مجال مغناطيسي كثافه فيضه 0.4T فتولد قوه دافعه كهربيه مستحثه بين طرفيه مقدارها 20mv فتكون (سيتا) =   
+ 		  </h2>
+ 		  	<button onclick="alert('مش مهم تغلط المهم تعرف غلطك!,للاسف هتعيد من الاول');dd()">60</button>
+ 			<button onclick="alert('مش مهم تغلط المهم تعرف غلطك!,للاسف هتعيد من الاول');aa()">45</button>
+ 			<button onclick="alert('مش مهم تغلط المهم تعرف غلطك!,للاسف هتعيد من الاول');ss()">90</button>
+ 			<button onclick="alert('هانت فاضل 7 اسئله');xx()">30</button>
+</div>
+
+		<div id="p4" class="page">
+ 		  <h2> 4- ملف مستطيل مساحه وجهه (A) يخترقه فيض عموديا شدته (B) فكانت قيمه الفيض المغناطيسي 10wb, فإذا زادت كثافه الفيض بمقدار 2.5T يصبح الفيض المغتاطيسي 50wb فإن قيمه كثافه الفيض (B) =</h2>
+ 		  	<button onclick="alert('كويس اوي ');qe()">0.625T</button>
+ 			<button onclick="alert(' النجاح مش سهل , اتعب و عافر');qw();">0.2T</button>
+ 			<button onclick="alert(' النجاح مش سهل , اتعب و عافر');qr()">0.125T</button>
+ 			<button onclick="alert(' النجاح مش سهل , اتعب و عافر');qt()">0.1T</button>
+</div>
+		<div id="p5" class="page">
+ 		  <h2> 5- جرس كهربي قدرته 1W عند مرور تيار كهربي شدته 0.5A خلاله, اتصل بمحول كهربي كفاءته 95% و عدد لفات ملفه الثانوي 1\100
+ 		  من عدد ملفات ملفه الابتدائي, فإن فرق الجهد المتصل بالملف الابتدائي =</h2>
+ 		  	<button onclick="alert('ركز و المره الجايه هتظبط')as();">105.26V</button>
+ 			<button onclick="alert('ركز و المره الجايه هتظبط');ad()">210.53V</button>
+ 			<button onclick="alert('كويس اوي');af()">110.34V</button>
+ 			<button onclick="alert('ركز و المره الجايه هتظبط');ag()">215.26V</button>
+</div>
+		<div id="p6" class="page">
+ 		  <h2>6- وصل جلفانومتر مقاومه ملفه 50أوم بمضاعف جهد 450أوم فكانت اقصي قراءه له 1V و ندما تم توصيل نفس الجلفانو بمضاعف جهد 
+ 		  (Rm)2 كانت اقصي قراءه للفولتميتر 18V فتكون قيمه (Rm)2 =</h2>
+ 		  	<button onclick="alert('انا بهنيك علي التقدم ده, بس حاول ركز اكتر ');zx()">9000أوم</button>-
+ 			<button onclick="alert('انا بهنيك علي التقدم ده, بس حاول ركز اكتر');zc()">9050أوم</button>
+ 			<button onclick="alert('انا بهنيك علي التقدم ده, بس حاول ركز اكتر');zv()">9500أوم</button>
+ 			<button onclick="alert('دا كان سهل ');zb()">8950أوم</button>
+</div>
+		<div id="p7" class="page">
+ 		  <h2>7- مصدر جهد متردد يعطي جهد من العلاقه V=280(50بايT) وصل بمقاومه اوميه عديمه الحث قيمتها 40أوم, فإن تردد المصدر (f)=
+ 		  </h2>
+ 		  	<button onclick="alert('باين انك مذاكر');we()">75Hz</button>
+ 			<button onclick="alert('ازاي مجبتهاش و جبت الي قبلها !!!');wr()">50Hz</button>
+ 			<button onclick="alert('ازاي مجبتهاش و جبت الي قبلها !!!');wt()">60Hz</button>
+ 			<button onclick="alert('ازاي مجبتهاش و جبت الي قبلها !!!');wy()">25Hz</button>=
+</div>
+		<div id="p8" class="page">
+ 		  <h2>8-  اوميتر مقاومته الداخليه (R) معاير الي نهايه تدريجه , وعند توصيل مقاومه خارجيه 6000أوم ,
+ 		  بين طرفيه قلت شده التيار المار فيه الي الثلث, فإن مقاومه الاوميتر (R) = </h2>
+ 		  	<button onclick="alert('حاول تهتم باللي بين السطور');sg()">1500</button>
+ 			<button onclick="alert('حاول تهتم باللي بين السطور');sf()">2000</button>
+ 			<button onclick="alert('هانت كلها سؤالين');sd()">3000</button>
+ 			<button onclick="alert('حاول تهتم باللي بين السطور');sh()">4000</button>
+</div>
+		<div id="p9" class="page">
+ 		  <h2>9- يؤثر فيض مغناطيسي تتغير كثافته بمعدل ثابت عموديا علي ملف دائري, فتتولد في الملف قوه دافعه كهربيه مستحثه (E), 
+ 		  فإذا زادت عدد اللفانت الي الضعف و قلت المساحه الي النصف, فإن القوه الدافعه الكهربيه المستحثه المتولده = </h2>
+ 		  	<button onclick="alert('كان فاضلك سؤال !');er()">4E</button>
+ 			<button onclick="alert('كان فاضلك سؤال !');ey()">1/2E</button>
+ 			<button onclick="alert('عاش يا بطل');et()">E</button>
+ 			<button onclick="alert('كان فاضلك سؤال !');eu()">1/4E</button>
+</div>
+		<div id="p10" class="page">
+ 		  <h2>10- ملف مستطيل يمر به تيار كهربي و موضوع موازيا لاتجاه مجال مغناطيسي كثافه فيضه 2T, و عزم ثنائي القطب المغناطيسي 
+ 		  للملف هو 0.3Amتربيع, فيكون عزم الازدواج المؤثر علي الملف = </h2>
+ 		  	<button onclick="alert('كنت علي شعره من انك تخلص التحدي');vb()">0.06A.m</button>
+ 			<button onclick="alert('كنت علي شعره من انك تخلص التحدي');vn()">0.015A.m</button>
+ 			<button onclick="alert('مبرووووووووك!');vv()">0.6A.m</button>
+ 			<button onclick="alert('كنت علي شعره من انك تخلص التحدي');vm()">0.15A.m</button>
+</div>
+<div id="p11" class="page">
+	<h2>  مبروك عليك/ي ,انا عارف انهم مش اسئله صعبه بس دي تجربه و كانت بلنسبالي اول مره </h2>
+	<br>
+	<h3> انتظر القادم من svr</h3>
+<button onclick="alert('صدقني انا تعبت جامد عقبال ما عملت الاسئله دي ف اتمني يكونوا عجبوك');jj()" class="start-btn">عد للصفحه الرئسيه</button>
+</div>
+ <script>
+ 		function cc() {
+ 		document.getElementById("p").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+ 		function qq() {
+ 		document.getElementById("p1").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ 	}
+
+
+
+
+ 		function ww() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+ 		function rr() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ }
+ 		function tt() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function yy() {
+ 		document.getElementById("p2").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+
+ 		function xx() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ 	}
+ 		function aa() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ }
+ 		function ss() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function dd() {
+ 		document.getElementById("p3").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+ 		function qe() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ 	}
+ 		function qw() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ }
+ 		function qr() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function qt() {
+ 		document.getElementById("p4").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+
+ 		function af() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ 	}
+ 		function as() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ }
+ 		function ag() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+		function ad() {
+ 		document.getElementById("p5").classList.remove("active");
+ 		document.getElementById("p1").classList.add("active");
+ 	}
+
+
+
+
+ 		function zb() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p7").classList.add("active");
+ 	}
+ 		function zx() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ }
+ 		function zc() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ 	}
+		function zv() {
+ 		document.getElementById("p6").classList.remove("active");
+ 		document.getElementById("p2").classList.add("active");
+ 	}
+
+
+ 		function we() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ 	}
+ 		function wy() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p8").classList.add("active");
+ }
+ 		function wr() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ 	}
+
+
+		function wt() {
+ 		document.getElementById("p7").classList.remove("active");
+ 		document.getElementById("p3").classList.add("active");
+ 	}
+
+
+
+
+ 		function sd() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p9").classList.add("active");
+ 	}
+ 		function sf() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ }
+ 		function sg() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ 	}
+		function sh() {
+ 		document.getElementById("p8").classList.remove("active");
+ 		document.getElementById("p4").classList.add("active");
+ 	}
+
+
+
+
+
+ 		function et() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p10").classList.add("active");
+ 	}
+ 		function er() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ }
+ 		function ey() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ 	}
+
+
+		function eu() {
+ 		document.getElementById("p9").classList.remove("active");
+ 		document.getElementById("p5").classList.add("active");
+ 	}
+
+
+
+
+
+ 		function vv() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p11").classList.add("active");
+ 	}
+ 	function vb() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ 	}
+ 		function vn() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ 	}
+ 		function vm() {
+ 		document.getElementById("p10").classList.remove("active");
+ 		document.getElementById("p6").classList.add("active");
+ }
+ 		function jj() {
+ 			window.location.href='home.html';
+
+ }
+
+ </script>
+
+</body>
+ </html>
+
+
